@@ -7,6 +7,7 @@ import Polimorfismo.ejercicio03.*;
 import Polimorfismo.ejercicio04.*;
 import Polimorfismo.ejercicio05.*;
 import Polimorfismo.ejercicio06.*;
+import Polimorfismo.ejercicio07.*;
 
 
 
@@ -53,5 +54,13 @@ public class Main {
     Persona miPersona = new Estudiante("Luis Perez","2024-0512", "Sistemas");
 
      miPersona.presentarse();
+    
+     //Ejercicio 7 Vehiculo
+     System.out.println("\n Ejercicio 7 ");
+
+     Vehiculo miMoto = new Motocicleta();
+
+  
+     miMoto.encender();
  }
 }
