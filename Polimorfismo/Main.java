@@ -4,6 +4,7 @@ package Polimorfismo;
 import Polimorfismo.ejercicio01.*;
 import Polimorfismo.ejercicio02.*;
 import Polimorfismo.ejercicio03.*;
+import Polimorfismo.ejercicio04.*;
 
 
 
@@ -18,15 +19,22 @@ public class Main {
      //Ejercicio 2 Figura 
      System.out.println( "\n Ejercicio 2:");
  
-  Figura miFigura = new Rectangulo(10.5, 5.0); 
-  miFigura.area(); 
+     Figura miFigura = new Rectangulo(10.5, 5.0); 
+     miFigura.area(); 
   
   //Ejercicio 3 Empleado 
   
-  System.out.println("\n Ejercicio 3 ");
+     System.out.println("\n Ejercicio 3 ");
 
-Empleado miEmpleado = new Vendedor("Carlos Mendoza", 1250.75);
+     Empleado miEmpleado = new Vendedor("Carlos Mendoza", 1250.75);
 
-miEmpleado.resumen();
+     miEmpleado.resumen();
+
+//Ejercicio 4 Cuenta 
+    System.out.println("\n Ejercicio 4 ");
+
+    Cuenta miCuenta = new CuentaAhorro(1000.0);
+
+    miCuenta.depositar(500.0);
  }
 }
