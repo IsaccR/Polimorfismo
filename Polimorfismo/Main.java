@@ -8,6 +8,7 @@ import Polimorfismo.ejercicio04.*;
 import Polimorfismo.ejercicio05.*;
 import Polimorfismo.ejercicio06.*;
 import Polimorfismo.ejercicio07.*;
+import Polimorfismo.ejercicio08.*;
 
 
 
@@ -62,5 +63,13 @@ public class Main {
 
   
      miMoto.encender();
+     
+     //Ejercicio 8 Producto
+     System.out.println("\n Ejercicio 8 ");
+
+     Producto miProducto = new ProductoDigital("Curso de Java Avanzado", 150.0, "https://java.com/download");
+
+     miProducto.mostrarDescripcion();
+     
  }
 }
