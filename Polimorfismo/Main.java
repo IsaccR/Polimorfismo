@@ -10,6 +10,7 @@ import Polimorfismo.ejercicio06.*;
 import Polimorfismo.ejercicio07.*;
 import Polimorfismo.ejercicio08.*;
 import Polimorfismo.ejercicio09.*;
+import Polimorfismo.ejercicio10.*;
 
 
 
@@ -78,6 +79,15 @@ public class Main {
        Instrumento miInstrumento = new Guitarra();
 
        miInstrumento.tocar();
+       
+       //Ejercicio 10 Trabajador
+       System.out.println("\n Ejercicio 10 ");
+
+    
+       Trabajador miTrabajador = new TrabajadorporHora(40, 65.50);
+
+    
+        miTrabajador.calcularPago();
      
      
      
