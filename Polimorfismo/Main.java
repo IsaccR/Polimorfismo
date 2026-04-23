@@ -3,6 +3,7 @@ package Polimorfismo;
 
 import Polimorfismo.ejercicio01.*;
 import Polimorfismo.ejercicio02.*;
+import Polimorfismo.ejercicio03.*;
 
 
 
@@ -19,5 +20,13 @@ public class Main {
  
   Figura miFigura = new Rectangulo(10.5, 5.0); 
   miFigura.area(); 
+  
+  //Ejercicio 3 Empleado 
+  
+  System.out.println("\n Ejercicio 3 ");
+
+Empleado miEmpleado = new Vendedor("Carlos Mendoza", 1250.75);
+
+miEmpleado.resumen();
  }
 }
