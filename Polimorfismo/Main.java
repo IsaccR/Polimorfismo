@@ -9,6 +9,7 @@ import Polimorfismo.ejercicio05.*;
 import Polimorfismo.ejercicio06.*;
 import Polimorfismo.ejercicio07.*;
 import Polimorfismo.ejercicio08.*;
+import Polimorfismo.ejercicio09.*;
 
 
 
@@ -70,6 +71,15 @@ public class Main {
      Producto miProducto = new ProductoDigital("Curso de Java Avanzado", 150.0, "https://java.com/download");
 
      miProducto.mostrarDescripcion();
+     
+     //Ejercicio 9 Instrumento
+     System.out.println("\n Ejercicio 9 ");
+
+       Instrumento miInstrumento = new Guitarra();
+
+       miInstrumento.tocar();
+     
+     
      
  }
 }
