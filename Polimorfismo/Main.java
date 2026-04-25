@@ -93,3 +93,10 @@ public class Main {
      
  }
 }
+
+
+	//en este trabajo se aplicaron los conceptos de herencia, sobreeescritura de 
+    //metodos y polimorfismo mediante la creacion de distintas clases relacionadas entre si.
+    //primero defiia la clase padre con sus atributos y metodos luego creaba las clases hijas que heredaban
+    // esos atributos y sobreescribia los metodos.
+    //Esto me permitia comprender como reutilzar codigo y como especializar funciones que sirven en ambas.
